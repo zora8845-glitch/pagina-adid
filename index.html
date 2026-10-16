@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADID | Estilo y movimiento</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet" />
+  </head>
+  <body class="pagina">
+    <header class="encabezado">
+      <div class="nav-wrap container">
+        <div class="logo" aria-label="Logo de ADID">ADID</div>
+        <nav class="menu" aria-label="Navegación principal">
+          <a href="#portada">Portada</a>
+          <a href="#historia">Historia</a>
+          <a href="#destacados">Destacados</a>
+          <a href="#ofertas">Ofertas</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <a class="boton boton-primario" href="#ofertas">Comprar ahora</a>
+      </div>
+    </header>
+
+    <main class="contenido">
+      <div class="secciones">
+        <section id="portada" class="hero section container">
+          <div class="hero-copy">
+            <p class="eyebrow">Nueva colección</p>
+            <h1>Tu estilo, tu energía, tu movimiento.</h1>
+            <p class="lead">
+              Diseñamos prendas y calzado para acompañarte cada paso del día con
+              comodidad, tecnología y actitud.
+            </p>
+            <div class="hero-actions">
+              <a class="boton boton-primario" href="#destacados">Ver destacados</a>
+              <a class="boton boton-secundario" href="#servicios">Explorar servicios</a>
+            </div>
+            <ul class="stats" aria-label="Estadísticas de la marca">
+              <li><strong>150K+</strong><span>clientes activos</span></li>
+              <li><strong>4.9/5</strong><span>valoración media</span></li>
+              <li><strong>24h</strong><span>envío exprés</span></li>
+            </ul>
+          </div>
+          <div class="hero-visual" aria-label="Imagen promocional del producto principal">
+            <div class="shoe-card">
+              <div class="shoe-badge">Apex Run</div>
+              <div class="shoe-shape"></div>
+              <div class="shoe-details">
+                <span>Performance</span>
+                <strong>$189</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="historia" class="section historia container">
+          <div class="section-head">
+            <p class="eyebrow">Nuestra historia</p>
+            <h2>Más que ropa: una identidad de movimiento.</h2>
+          </div>
+          <div class="story-layout">
+            <div class="story-card large">
+              <p>
+                ADID nació con la idea de unir innovación, estilo y pasión por el
+                deporte. Desde nuestros primeros diseños, buscamos crear productos que
+                inspiren a moverse con confianza y libertad.
+              </p>
+            </div>
+            <div class="story-card accent">
+              <p>
+                Cada colección mezcla materiales resistentes, siluetas modernas y una
+                atención meticulosa al detalle para adaptarse a la vida cotidiana y a la
+                práctica deportiva.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="destacados" class="section destacados container">
+          <div class="section-head split">
+            <div>
+              <p class="eyebrow">Destacados</p>
+              <h2>Lo más buscado esta semana</h2>
+            </div>
+            <a href="#ofertas" class="text-link">Ver todas</a>
+          </div>
+          <div class="card-grid">
+            <article class="product-card">
+              <div class="card-visual visual-one"></div>
+              <div class="card-info">
+                <span class="tag">Running</span>
+                <h3>Velocity Pro</h3>
+                <div class="price-row">
+                  <strong>$159</strong>
+                  <span>4.8 ★</span>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="card-visual visual-two"></div>
+              <div class="card-info">
+                <span class="tag">Casual</span>
+                <h3>Metro Lite</h3>
+                <div class="price-row">
+                  <strong>$129</strong>
+                  <span>4.7 ★</span>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="card-visual visual-three"></div>
+              <div class="card-info">
+                <span class="tag">Train</span>
+                <h3>Core Motion</h3>
+                <div class="price-row">
+                  <strong>$149</strong>
+                  <span>4.9 ★</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="ofertas" class="section ofertas container">
+          <div class="section-head split">
+            <div>
+              <p class="eyebrow">Ofertas</p>
+              <h2>Descuentos para empezar fuerte</h2>
+            </div>
+            <a href="#contacto" class="text-link">Solicitar oferta</a>
+          </div>
+          <div class="offers-grid">
+            <article class="offer-item highlight">
+              <div>
+                <p class="small-label">Hasta</p>
+                <h3>40% OFF</h3>
+              </div>
+              <span>en colección urbana</span>
+            </article>
+            <article class="offer-item">
+              <div>
+                <p class="small-label">Pack</p>
+                <h3>2x1</h3>
+              </div>
+              <span>en accesorios</span>
+            </article>
+            <article class="offer-item">
+              <div>
+                <p class="small-label">Envio</p>
+                <h3>Gratis</h3>
+              </div>
+              <span>pedidos +$120</span>
+            </article>
+          </div>
+        </section>
+
+        <section id="servicios" class="section servicios container">
+          <div class="section-head">
+            <p class="eyebrow">Servicios</p>
+            <h2>Todo lo que necesitas para vestir mejor</h2>
+          </div>
+          <div class="services-grid">
+            <article class="service-card">
+              <span class="material-icon">tune</span>
+              <h3>Personalización</h3>
+              <p>Adaptamos prendas y detalles a tu estilo o requerimientos deportivos.</p>
+            </article>
+            <article class="service-card">
+              <span class="material-icon">local_shipping</span>
+              <h3>Envíos rápidos</h3>
+              <p>Recibe tus pedidos en tiempo récord con seguimiento en cada etapa.</p>
+            </article>
+            <article class="service-card">
+              <span class="material-icon">support_agent</span>
+              <h3>Atención cercana</h3>
+              <p>Consultores especializados para ayudarte a elegir lo ideal para ti.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contacto" class="section contacto container">
+          <div class="contact-card">
+            <div class="contact-copy">
+              <p class="eyebrow">Contacto</p>
+              <h2>Hablemos de tu próximo look.</h2>
+              <p>
+                Escríbenos si quieres asesoramiento, pedidos especiales o conocer nuestras
+                colecciones exclusivas.
+              </p>
+              <ul>
+                <li>📍 Calle Sol 245, Madrid</li>
+                <li>📞 +34 600 123 456</li>
+                <li>✉️ hola@adid.com</li>
+              </ul>
+            </div>
+            <form class="formulario">
+              <label>
+                Nombre
+                <input type="text" placeholder="Tu nombre" />
+              </label>
+              <label>
+                Correo
+                <input type="email" placeholder="tu@email.com" />
+              </label>
+              <label>
+                Mensaje
+                <textarea rows="4" placeholder="Cuéntanos qué buscas..."></textarea>
+              </label>
+              <button type="submit" class="boton boton-primario">Enviar</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="pie">
+      <div class="container footer-wrap">
+        <div>
+          <div class="logo">ADID</div>
+          <p>Diseño, tecnología y movimiento para cada día.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#historia">Historia</a>
+          <a href="#destacados">Destacados</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
